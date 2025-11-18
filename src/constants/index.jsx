@@ -1,3 +1,19 @@
+import {
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  threejs,
+} from "../assets";
+
 const navLinks = [
     {
       name: "Work",
@@ -146,43 +162,42 @@ const navLinks = [
   ];
   
   const expCards = [
-    {
-      review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-      imgPath: "/images/exp1.png",
-      logoPath: "/images/logo1.png",
-      title: "Frontend Developer",
-      date: "January 2023 - Present",
-      responsibilities: [
-        "Developed and maintained user-facing features for the Hostinger website.",
-        "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-        "Optimized web applications for maximum speed and scalability.",
-      ],
-    },
-    {
-      review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-      imgPath: "/images/exp2.png",
-      logoPath: "/images/logo2.png",
-      title: "Full Stack Developer",
-      date: "June 2020 - December 2023",
-      responsibilities: [
-        "Led the development of Docker's web applications, focusing on scalability.",
-        "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-        "Contributed to open-source projects that were used with the Docker ecosystem.",
-      ],
-    },
-    {
-      review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-      imgPath: "/images/exp3.png",
-      logoPath: "/images/logo3.png",
-      title: "React Native Developer",
-      date: "March 2019 - May 2020",
-      responsibilities: [
-        "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-        "Improved app performance and user experience through code optimization and testing.",
-        "Coordinated with the product team to implement features based on feedback.",
-      ],
-    },
-  ];
+  {
+    review:
+      "Deepansh has been performing exceptionally well across multiple projects, particularly in front-end development tasks. His hard work and dedication are highly appreciated.",
+    imgPath: "/images/exp1.png",
+    logoPath: "/images/navikenz_logo_NEW.png",
+    title: "Full Stack Developer",
+    date: "July 2023 - Present",
+    rating: 4,
+    responsibilities: [
+      "Delivered frontend features across multiple client projects using Next.js and React.js.",
+      "Developed core modules for the Nrich Product Enrichment platform and integrated REST APIs.",
+      "Built data dashboards, product listing flows, and role-based UIs for enterprise clients.",
+      "Implemented Prisma + PostgreSQL data layers and handled integrations with Amazon S3.",
+      "Contributed Python automation scripts for workflow tasks in projects like NextCare.",
+      "Worked closely with designers and backend teams to ship clean, scalable features.",
+    ],
+  },
+
+  {
+    review:
+      "During his internship, Deepansh showed strong learning speed and solid fundamentals. He is very hard-working and has picked up momentum over the past few months. He is far more confident and is very capable of being put into projects.",
+    imgPath: "/images/exp2.png",
+    logoPath: "/images/navikenz_logo_NEW.png",
+    title: "Software Engineer Intern",
+    date: "Jan 2023 - July 2023",
+    rating: 5,
+    responsibilities: [
+      "Completed 6-month training in full-stack development and data science.",
+      "Built small-to-medium frontend features using React.js while integrating REST APIs.",
+      "Worked with FastAPI, Python, and MongoDB on backend exercises and internal tools.",
+      "Developed practice projects covering HTML, CSS, JavaScript, Java, and Python.",
+      "Gained hands-on experience in API integration workflows and modular UI development.",
+    ],
+  },
+];
+
   
   const expLogos = [
     {
@@ -262,6 +277,61 @@ const navLinks = [
       imgPath: "/images/linkedin.png",
     },
   ];
+
+  const technologies = [
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Redux Toolkit",
+    icon: redux,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+];
   
   export {
     words,
@@ -275,4 +345,6 @@ const navLinks = [
     techStackIcons,
     techStackImgs,
     navLinks,
+    technologies
   };
+
