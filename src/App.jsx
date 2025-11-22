@@ -6,6 +6,8 @@ import LogoShowcase from "./sections/LogoShowcase";
 import AppShowcase from "./sections/ShowCaseSection";
 import Tech from "./sections/Tech";
 import TechStack from "./sections/TechStack";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 
 const App = () => {
   return (
@@ -13,11 +15,13 @@ const App = () => {
       <NavBar />
       <Hero />
       <AppShowcase />
-      <LogoShowcase />
+      {/* <LogoShowcase /> */}
       <FeatureCards />
       <Experience />
       <TechStack />
       {/* <Tech /> */}
+      <Contact />
+      <Footer />
     </>
   );
 };
